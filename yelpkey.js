@@ -1,0 +1,2 @@
+var API_KEY = `iBnihufGoeVl4-omhlc-mG6_1-D_ytkW8pDOXKdgbJbr7BePAY0bxQEBHTTuUTjEtM1Ahx8eWFrdMa2mT6JAecdukaZkPXjoeQwgS0Ep5tINxpKgrG0vvcA2meXXX3Yx`
+export default API_KEY;
