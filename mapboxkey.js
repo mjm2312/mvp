@@ -1,2 +1,0 @@
-var API_KEY = `pk.eyJ1IjoibWptMjMxMiIsImEiOiJja2lxNWNrY2wwaG5xMnFvMG1obWkzNHpsIn0.kNho-bfoqi6Z6ZcgvHTngA`
-export default API_KEY;
