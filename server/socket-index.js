@@ -4,6 +4,8 @@ const http =  require("http");
 const app = express();
 const server = http.createServer(app);
 
+const port = process.env.PORT || 2999
+
 const sio = require("socket.io")(server, {
   cors: {
     origin: "http://127.0.0.1:5500/",
@@ -35,4 +37,4 @@ sio.on("connection", (socket) => {
   })
 });
 
-server.listen(2999, () => {console.log('listening on 2999')});
+server.listen(port, () => {console.log('listening on ', port)});
