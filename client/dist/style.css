@@ -1,7 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
 
 body {
-  font-family: "Work Sans", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 20px;
   color: #2c3e50;
 }
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height:500px;
+  width: 600px;
+  /* margin-left: auto;
+  margin-right: auto;  won't work with display: inline-block*/
+  /* border: 1px solid black; */
+  display: inline-block;
+
+  /* transform: scale(0.7, 0.7);  */
+  }
+
+  .pop-up {
+    width: 10px;
+    background-color: pink;
+    display: none;
+  }
+
+  .orderContainer {
+    position: absolute;
+     top: 330px;
+     
+
+    height:300px;
+    width: 300px;
+    /* margin-left: auto;
+    margin-right: auto;  won't work with display: inline-block*/
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* margin-left: 10px; */
+    margin-left: 840px;
+
+    vertical-align: bottom
+    /* transform: scale(0.7, 0.7);  */
+    }
+
+  .restaurantContainer {
+    position: absolute;
+     top: 20px;
+     
+
+    height:300px;
+    width: 300px;
+    /* margin-left: auto;
+    margin-right: auto;  won't work with display: inline-block*/
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 10px;
+  
+
+    vertical-align: bottom
+    /* transform: scale(0.7, 0.7);  */
+    }
+
+    .star-ratings {
+      position: absolute;
+    }
+
+    .menuContainer {
+      position: absolute;
+       top: 20px;
+       
+  
+      height:500px;
+      width: 400px;
+      /* margin-left: auto;
+      margin-right: auto;  won't work with display: inline-block*/
+      /* border: 1px solid black; */
+      display: inline-block;
+      margin-left: 320px;
+    
+  
+      vertical-align: bottom;
+      overflow: scroll;
+      /* transform: scale(0.7, 0.7);  */
+      }
